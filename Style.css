@@ -1,0 +1,481 @@
+:root{
+    --orangered: var(--orangered);
+    --white:var(--white);
+    --Arial:var(--Arial);
+}
+.content{
+    display: grid;
+    grid-template-rows: 7em 85em 60em 60em 8em;
+}
+.content >div:nth-child(1){
+    background-color: white;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+.content >div:nth-child(1) >div:nth-child(1){
+    background-image: url(Logo.png);
+    flex-basis: 13em;
+    block-size: 7em;
+    margin-left: 5%;
+    background-repeat: no-repeat;
+}
+.content >div:nth-child(1)>div:nth-child(2){
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 30%;
+    font-size: 1.4rem;
+    right: 5%;
+}
+.content >div:nth-child(1) >div:nth-child(2) >div:nth-child(1){
+    color: orangered;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}.content >div:nth-child(1) >div:nth-child(2) >div:nth-child(2){
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content >div:nth-child(1) >div:nth-child(2) >div:nth-child(3){
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+.content >div:nth-child(1) >div:nth-child(2) >div:nth-child(4){
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*----------------------------------------------------------------------------------------------------------*/
+
+.content >div:nth-child(2){
+    block-size: 35%;
+    position: relative;
+}
+.content >div:nth-child(2) > div:nth-child(1){
+    padding: 25rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Rectangle\ 48BG\ Slide\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-size: cover;
+    position: relative; 
+}
+.content >div:nth-child(2) >div:nth-child(2){
+    font-size: 2rem;
+    position: absolute;
+    top:0;
+    width: 100%;
+    block-size: 100%;
+}
+.content >div:nth-child(2) >div:nth-child(2) >div:nth-child(1){
+    position: relative;
+    top: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    color: white;
+    text-align: center;
+}
+.content >div:nth-child(2) >div:nth-child(2) >div:nth-child(1)>div:nth-child(1){
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--white);
+}
+.content >div:nth-child(2) >div:nth-child(2) >div:nth-child(1)>div:nth-child(2){
+    font-weight: bold;
+    font-size: 5rem;
+    color: var(--white);
+    padding-top: 5%;
+}
+.content >div:nth-child(2) >div:nth-child(2) >div:nth-child(1)>div:nth-child(3){
+    font-weight: bold;
+    font-size: 5rem;
+    color: var(--white);
+}
+.content >div:nth-child(2) >div:nth-child(2) >div:nth-child(1)>div:nth-child(4){
+    font-size: 2rem;
+    color: var(--white);
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.content >div:nth-child(2) >div:nth-child(2) >div:nth-child(1)>div:nth-child(5){
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    position: relative;
+    
+}
+.content >div:nth-child(2) >div:nth-child(2) >div:nth-child(1)>div:nth-child(5) >div:nth-child(1){
+    background-color: orangered;
+    border-radius: 2em;
+    width: 15%;
+    padding: 1%;
+}
+.content >div:nth-child(2) >div:nth-child(2) >div:nth-child(1) >div:nth-child(5) >div:nth-child(2){
+    border: solid white;
+    border-radius: 2em;
+    width: 15%;
+    padding: 1%;
+}
+
+.content >div:nth-child(2) >div:nth-child(2) >div:nth-child(1) >div:nth-child(5) >div:nth-child(3){
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   top: -15%;
+}
+.content >div:nth-child(2) >div:nth-child(2) >div:nth-child(1) >div:nth-child(5) >div:nth-child(3) >div{
+    background-image: url(2telephones.png);
+    width: 40rem;
+    display: flex;
+    flex-basis: 50rem;
+    background-size: cover;
+}
+
+/*_______________________________________________________________________________________________________*/
+
+.content >div:nth-child(3){
+    width: 100%;
+}
+.content >div:nth-child(3) >div:nth-child(1){
+    width: 50%;
+    border: 0.1rem solid lightgray;
+    position: relative;
+    left: 25%;
+}
+.content >div:nth-child(3) >div:nth-child(2){
+    display: flex;
+    margin-top: 4rem;
+    font-size: 3rem;
+    margin-left: 45rem;
+    position: relative;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content >div:nth-child(3) >div:nth-child(3){
+    block-size: 60rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.content >div:nth-child(3) >div:nth-child(3) >div:nth-child(1){
+    background-image: url(RectangleImg2.png);
+    background-size: cover;
+    width: 50%;
+    block-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content >div:nth-child(3) >div:nth-child(3) >div:nth-child(2){
+    position: relative;
+    top: -3.5rem;
+    transform: translateX(-50%);
+    width: 50%;
+    color: black;
+    text-align:center;
+    left: 20rem;
+}
+.content >div:nth-child(3) >div:nth-child(3) >div:nth-child(2) >div:nth-child(1){
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-bottom: 3%;
+}
+.content >div:nth-child(3) >div:nth-child(3) >div:nth-child(2) >div:nth-child(2){
+    font-weight: bold;
+    font-size: 3rem;
+}
+.content >div:nth-child(3) >div:nth-child(3) >div:nth-child(2) >div:nth-child(3){
+    font-weight: bold;
+    font-size: 3rem;
+    padding-bottom: 3%;
+}
+.content >div:nth-child(3) >div:nth-child(3) >div:nth-child(2) >div:nth-child(4){
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.content >div:nth-child(3) >div:nth-child(3) >div:nth-child(2) >div:nth-child(5){
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/*________________________________________________________________________________________________________*/
+
+.content >div:nth-child(4){
+    width: 100%;
+}
+content >div:nth-child(4) >div:nth-child(1){
+    block-size: 60rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.content >div:nth-child(4) >div:nth-child(1) >:nth-child(1){
+    position: relative;
+    top: 25rem;
+    transform: translateX(-50%);
+    width: 50%;
+    color: black;
+    text-align:center;
+    left: 30rem;
+}
+.content >div:nth-child(4) >div:nth-child(1) >div:nth-child(1) >div:nth-child(1){
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding-bottom: 3%;
+    padding-right: 8%;
+}
+.content >div:nth-child(4) >div:nth-child(1) >div:nth-child(1) >div:nth-child(2){
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-left: 10%;
+}
+.content >div:nth-child(4) >div:nth-child(1) >div:nth-child(1) >div:nth-child(3){
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-right: 1.7%;
+    padding-bottom: 3%;
+}
+.content >div:nth-child(4) >div:nth-child(1) >div:nth-child(1) >div:nth-child(4){
+    font-size: 1.9rem;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 15%;
+}
+.content >div:nth-child(4) >div:nth-child(1) >div:nth-child(1) >div:nth-child(5){
+    font-size: 1.9rem;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: -3%;
+}
+.content >div:nth-child(4) >div:nth-child(1) >div:nth-child(2){
+    background-image: url(RectangleImg3.png);
+    background-size: cover;
+    width: 40%;
+    block-size: 55rem;
+    background-repeat: no-repeat;
+    margin-left: 50%;
+    position: relative;
+    margin-top: -15%;
+}
+
+/*________________________________________________________________________________________________________*/
+
+.content >div:nth-child(5){
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.content >div:nth-child(5) >div:nth-child(1){
+    background-image: url(Logo.png);
+    flex-basis: 13em;
+    block-size: 7em;
+    margin-left: 5%;
+    background-repeat: no-repeat;
+}
+.content >div:nth-child(5)>div:nth-child(2){
+    display: flex;
+    font-size: 1.4rem;
+    width: 40rem;
+    block-size: 30%;
+}
+.content >div:nth-child(5) >div:nth-child(2) >div:nth-child(1){
+    background-image: url(Vector\ \(1\).png);
+    background-repeat: no-repeat;
+    block-size: 2em;
+    flex-basis: 7em;
+}.content >div:nth-child(5) >div:nth-child(2) >div:nth-child(2){
+    background-image: url(Vector.png);
+    background-repeat: no-repeat;
+    block-size: 2em;
+    flex-basis: 7em;
+}
+.content >div:nth-child(5) >div:nth-child(2) >div:nth-child(3){
+    background-image: url(instagramicone.png);
+    background-repeat: no-repeat;
+    block-size: 2em;
+    flex-basis: 7em;
+}  
+.content >div:nth-child(5) >div:nth-child(3){
+    font-size: 1.2rem;
+    margin-right: 5em;
+}
+
+/*_______________________________________________________________________________________________________*/
+
+@media screen and (max-width:768px)
+{
+    .content >div:nth-child(1)>div:nth-child(2){
+        display: none;
+    }
+    .content >div:nth-child(2) > div:nth-child(1){
+        padding: 25rem;
+        background-image: none;
+        
+    }
+    .content >div:nth-child(2) >div:nth-child(2) >div:nth-child(1){
+        position: relative;
+        top: 5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 70%;
+        color: black;
+        text-align: center;
+    }
+    .content >div:nth-child(2) >div:nth-child(2) >div:nth-child(1)>div:nth-child(1){
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .content >div:nth-child(2) >div:nth-child(2) >div:nth-child(1)>div:nth-child(2){
+        font-weight: bold;
+        font-size: 3.5rem;
+    }
+    .content >div:nth-child(2) >div:nth-child(2) >div:nth-child(1)>div:nth-child(3){
+        font-weight: bold;
+        font-size: 3.5rem;
+    }
+    .content >div:nth-child(2) >div:nth-child(2) >div:nth-child(1)>div:nth-child(4){
+        font-weight: bold;
+        font-size: 3rem;
+    }
+    .content >div:nth-child(2) >div:nth-child(2) >div:nth-child(1)>div:nth-child(5){
+        flex-direction: column;
+        align-items: center;
+    }
+    .content >div:nth-child(2) >div:nth-child(2) >div:nth-child(1)>div:nth-child(5) >div:nth-child(1){
+        background-color: orangered;
+        border-radius: 2em;
+        width: 45%;
+        font-size: 1.5em;
+        color: white;
+        font-weight: bold;
+        
+    }
+    .content >div:nth-child(2) >div:nth-child(2) >div:nth-child(1) >div:nth-child(5) >div:nth-child(2){
+        border: solid orangered;
+        border-radius: 2em;
+        width: 45%;
+        font-size: 1.5em;
+        color: orangered;
+        font-weight: bold;
+    }
+    .content >div:nth-child(2) >div:nth-child(2) >div:nth-child(1) >div:nth-child(5) >div:nth-child(3){
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 35%;
+    }
+    .content >div:nth-child(3) >div:nth-child(1){
+        width: 80%;
+        border: 0.1rem solid lightgray;
+        position: relative;
+        left: 10%;
+    }
+    .content >div:nth-child(3) >div:nth-child(2){
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        left: -20%;
+        align-items: center;
+        width: 50%;
+    }
+    .content >div:nth-child(3) >div:nth-child(3){
+        block-size: 60rem;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: 80rem;
+        margin: 0 auto;
+        margin-top: 8rem;
+    }
+    .content >div:nth-child(3) >div:nth-child(3) >div:nth-child(1){
+        background-image: url(RectangleImg2.png);
+        background-size: cover;
+        width: 50rem;
+        block-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .content >div:nth-child(3) >div:nth-child(3) >div:nth-child(2){
+        position: relative;
+        top: -3.5rem;
+        transform: translateX(-50%);
+        width: 50%;
+        color: black;
+        text-align:center;
+        left: 20rem;
+    }
+    .content >div:nth-child(3) >div:nth-child(3) >div:nth-child(2) >div:nth-child(1){
+        font-weight: bold;
+        font-size: 1.3rem;
+        padding-bottom: 3%;
+    }
+    .content >div:nth-child(3) >div:nth-child(3) >div:nth-child(2) >div:nth-child(2){
+        font-weight: bold;
+        font-size: 3rem;
+    }
+    .content >div:nth-child(3) >div:nth-child(3) >div:nth-child(2) >div:nth-child(3){
+        font-weight: bold;
+        font-size: 3rem;
+        padding-bottom: 3%;
+    }
+    .content >div:nth-child(3) >div:nth-child(3) >div:nth-child(2) >div:nth-child(4){
+        font-size: 2rem;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .content >div:nth-child(3) >div:nth-child(3) >div:nth-child(2) >div:nth-child(5){
+        font-size: 2rem;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .content >div:nth-child(4){
+        display: block;
+    }
+    .content >div:nth-child(4) >div:nth-child(1) >:nth-child(1){
+        position: relative;
+        top: 25rem;
+        transform: translateX(-50%);
+        width: 50%;
+        color: black;
+        text-align:center;
+        left: 30rem;
+        flex-direction: column;
+    }
+    .content >div:nth-child(4) >div:nth-child(1) >div:nth-child(1) >div:nth-child(1){
+        font-weight: bold;
+        font-size: 1.7rem;
+        padding-bottom: 3%;
+        padding-right: 8%;
+    }
+    .content >div:nth-child(4) >div:nth-child(1) >div:nth-child(1) >div:nth-child(2){
+        font-weight: bold;
+        font-size: 2.5rem;
+        padding-left: 10%;
+    }
+    .content >div:nth-child(4) >div:nth-child(1) >div:nth-child(1) >div:nth-child(3){
+        font-weight: bold;
+        font-size: 2.5rem;
+        padding-right: 1.7%;
+        padding-bottom: 3%;
+    }
+    .content >div:nth-child(4) >div:nth-child(1) >div:nth-child(1) >div:nth-child(4){
+        font-size: 1.9rem;
+        color: rgba(0, 0, 0, 0.5);
+        padding-left: 15%;
+    }
+    .content >div:nth-child(4) >div:nth-child(1) >div:nth-child(1) >div:nth-child(5){
+        font-size: 1.9rem;
+        color: rgba(0, 0, 0, 0.5);
+        padding-left: -3%;
+    }
+    .content >div:nth-child(4) >div:nth-child(1) >div:nth-child(2){
+        background-image: url(RectangleImg3.png);
+        background-size: cover;
+        width: 40%;
+        block-size: 55rem;
+        background-repeat: no-repeat;
+        margin-left: 50%;
+        position: relative;
+        margin-top: -15%;
+    }
+
+}
